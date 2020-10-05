@@ -15,7 +15,7 @@ int peep(STACK *stack)
 int isEmpty(const STACK * const st)
 {
 	if( st )
-		return st->top == _1;
+		return st->top == -1;
 	return -1;
 }
 
